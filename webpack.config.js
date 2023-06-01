@@ -35,6 +35,7 @@ module.exports = (env, argv) => {
       }),
       new ModuleFederationPlugin({
         name: "product",
+        filename: "remoteEntry.js",
         remotes: {},
         exposes: {
           // expose each component
