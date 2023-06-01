@@ -17,8 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "webpack serve --open",
-    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve",
+    "build": "webpack --mode production",
     "serve": "serve dist -p 3000",
     "clean": "rm -rf dist"
   },
